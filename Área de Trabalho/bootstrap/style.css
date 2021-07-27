@@ -254,7 +254,7 @@ background-image:url('img/cidadeparallax.png');
     text-align: center;
 }
   
-#portfolio-area .filter-btn {
+#portfolio-area .filter-btn  {
     color:#444 ;
     border: 1px solid #444 ;
     background-color: transparent;
@@ -267,9 +267,9 @@ background-image:url('img/cidadeparallax.png');
     padding: 0  20px;
 }
   
-#portfolio-area .filter-btn.active,  #portfolio-area .filter-btn:hover {
+#portfolio-area .filter-btn.active,  #portfolio-area .filter-btn-box:hover {
     color:  #FFF ;
-    border: 1px solid #65DAF9 ;
+    background-color: #65DAF9;
     border-color:  #65DAF9 ;
 }
   
@@ -384,6 +384,7 @@ background-image:url('img/cidadeparallax.png');
   
 #contact-form  input [type ="text"],  #contact-form  input[type="email"], #contact-form textarea {
     margin-bottom: 15px;
+    margin-top: 15px;
     border-radius: 0;
 }
   

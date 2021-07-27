@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-  var ProgressBar = require('progressbar.min.js');
-
   let containerA = document.getElementById("circleA");
 
   let circleA = new ProgressBar.Circle(containerA, {
@@ -110,10 +108,10 @@ $(document).ready(function () {
   }, 250);
 
 
-  $('.filter-btn').on('click', function () {
+  $('.filter-btn').on('click', function() {
 
     let type = $(this).attr('id');
-    let box = $('.projet-box');
+    let boxes = $('.project-box');
 
     $('.main-btn').removeClass('active');
     $(this).addClass('active');
