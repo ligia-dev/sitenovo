@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
-  
+  var ProgressBar = require('progressbar.min.js');
+
   let containerA = document.getElementById("circleA");
 
   let circleA = new ProgressBar.Circle(containerA, {

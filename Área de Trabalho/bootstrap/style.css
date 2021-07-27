@@ -13,7 +13,7 @@ body{
 }
 
 p, li{
-    color: #4444;
+    color: #444;
     font-size: 14px;
 }
 
@@ -120,7 +120,7 @@ header, .navbar{
     width: 15%;
     position:absolute;
     top: 60px;
-    left: 42,5%;
+    left: 43%;
 }
 
 .about-title{
@@ -173,7 +173,7 @@ header, .navbar{
 /*Dados*/
 
 #data-area{
-background:url('img/cidadeparallax.png');
+background-image:url('img/cidadeparallax.png');
 }
 
 .circle-box div{
@@ -185,7 +185,7 @@ background:url('img/cidadeparallax.png');
     font-size: 32px;
 }
 
-#data-área p{
+#data-area p{
     color: #FFF;
     text-align: center;
     font-size: 26px;
